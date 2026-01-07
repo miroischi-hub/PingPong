@@ -1,8 +1,8 @@
 import socket # Importiert das Modul, um Sockets für Netzwerkkommunikation zu verwenden
 
-# Hostadresse und Portnummer angeben
-HOST = input("IP des Servers angeben: ")
-PORT = int(input("Portnummer angeben "))
+# Hostadresse und Portnummer eingeben
+HOST = input("IP des Servers eingeben: ")
+PORT = int(input("Portnummer eingeben:"))
 message = 1
 with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
     while True:
@@ -14,11 +14,11 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
         print(f"Send: {message}, Received: {data.decode()}")
         message = int(data.decode())
 
-        # UDP Ping Pong wiederholen ?
+        # Wiederholung
         again = input("Continue? (j/n): ").strip().lower()
         if again != "j":
             message = False
             print("Ping Pong finished!")
-        # Nächste Zahl vorbereiten
+        # Nächste Zahl
         else:
             message += 1
