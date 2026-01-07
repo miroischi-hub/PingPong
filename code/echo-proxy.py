@@ -1,10 +1,10 @@
 import socket
 
-# Adresse des Proxy (Der Client sendet dort hin)
+# Adresse des Proxy
 PROXY_HOST = "0.0.0.0"
 PROXY_PORT = 50001
 
-# Adresse der Servers (Proxy sendet an diesen Server)
+# Adresse des Servers
 SERVER_HOST = "127.0.0.1"
 SERVER_PORT = 65432
 
@@ -14,7 +14,7 @@ print(f"Proxy listening on {PROXY_PORT}")
 with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as proxy:
     proxy.bind((PROXY_HOST,PROXY_PORT))
 
-    # Persistentes Socket für Server erstellen (Quellport bleibt gleich)
+    # Persistentes Socket für Server erstellen
     server_sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
     server_sock.settimeout(5)
 
@@ -27,7 +27,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as proxy:
         # Paket an Server weiterleiten
         server_sock.sendto(data, (SERVER_HOST, SERVER_PORT))
 
-        # Antwort vom Server empfangen --> Mit Timeout
+        # Antwort vom Server empfangen
         try:
             response, _ = server_sock.recvfrom(1024)
         except socket.timeout:
