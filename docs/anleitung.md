@@ -15,5 +15,6 @@
 7. j oder n um fortzufahren oder beenden.
 
 
-<img width="3440" height="1440" alt="Bildschirmfoto vom 2026-01-07 14-14-38" src="https://github.com/user-attachments/assets/1c3cf5ab-93f7-4535-b49a-edd2af76193b" />
-
+<img width="742" height="410" alt="Bildschirmfoto vom 2026-01-07 14-21-26" src="https://github.com/user-attachments/assets/76c5c5ec-a73f-484a-8e8a-fe5d2797dde2" />
+<img width="750" height="410" alt="Bildschirmfoto vom 2026-01-07 14-21-30" src="https://github.com/user-attachments/assets/90567f12-56e3-4b01-9f5e-5ea69f5928b8" />
+<img width="750" height="572" alt="Bildschirmfoto vom 2026-01-07 14-21-33" src="https://github.com/user-attachments/assets/8692333d-dd3e-42b6-97c0-c3212dadc703" />
