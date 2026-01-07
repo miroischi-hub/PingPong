@@ -1,6 +1,6 @@
 import socket
 
-HOST = "0.0.0.0" # Bindet an alle Netzwerkschnittstellen
+HOST = "0.0.0.0" 
 PORT = 65432
 
 with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
