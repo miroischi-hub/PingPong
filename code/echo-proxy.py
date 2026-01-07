@@ -2,7 +2,7 @@ import socket
 
 # Adresse des Proxy (Der Client sendet dort hin)
 PROXY_HOST = "0.0.0.0"
-PROXY_PORT = 50000
+PROXY_PORT = 50001
 
 # Adresse der Servers (Proxy sendet an diesen Server)
 SERVER_HOST = "127.0.0.1"
