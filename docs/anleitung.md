@@ -13,3 +13,7 @@
 5. Der Client schickt automatisch den Wert "1" an den Proxy und dieser leitet ihn an den Server weiter.
 6. Der Server antwortet mit dem Wert "2" und sendet diesen an den Proxy. Der Proxy leitet den Wert wiederum zum Client.
 7. j oder n um fortzufahren oder beenden.
+
+
+<img width="3440" height="1440" alt="Bildschirmfoto vom 2026-01-07 14-14-38" src="https://github.com/user-attachments/assets/1c3cf5ab-93f7-4535-b49a-edd2af76193b" />
+
